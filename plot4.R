@@ -22,7 +22,7 @@ png("plot4.png", width = 480, height = 480)
 par(mfrow = c(2, 2))
 
 plot(datetime, globalActivePower, type = "l", xlab = "", 
-     ylab = "Global Active Power", cex = 0.2)
+     ylab = "Global Active Power")
 
 plot(datetime, voltage, type = "l", xlab = "datetime", ylab = "Voltage")
 
